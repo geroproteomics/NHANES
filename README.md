@@ -8,14 +8,15 @@ The National Health and Nutrition Examination Survey (NHANES) is a program of st
 ## Install packages 
 Packages are necessary for importing data from NHANES.
 
-install.packages("nhanesA")
-install.packages("dplyr")
-install.packages("ggplot2")  # uncomment if not yet installed
+install.packages("nhanesA")\
+install.packages("dplyr")\
+install.packages("ggplot2")\ 
 
-After installation, initialize the packages.
-library(nhanesA)
-library(dplyr)
-library(ggplot2)
+After installation, initialize the packages.\
+library(nhanesA)\
+library(dplyr)\
+library(ggplot2)\
+
 
 ## Data import and wrangling
 The data must be imported into your R session, and wrangled into a usable format prior to visualization.
