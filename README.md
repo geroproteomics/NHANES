@@ -92,7 +92,7 @@ ggplot(cohort, aes(x = age)) +
 
   Your plot should look like the following: 
   <p align="center">
-  <img src="images/NHANES_age.JPG" alt="Age histogram" width="500">
+  <img src="images/NHANES_age.jpg" alt="Age histogram" width="500">
 </p>
 
 #### --- Sex: bar plot -----------------------------------------------------------
@@ -108,7 +108,7 @@ ggplot(cohort %>% filter(!is.na(sex)), aes(x = sex, fill = sex)) +
 
     Your plot should look like the following: 
   <p align="center">
-  <img src="images/NHANES_gender.JPG" alt="Gender bar plot" width="500">
+  <img src="images/NHANES_gender.jpg" alt="Gender bar plot" width="500">
 </p>
 
 #### --- Race: bar plot -----------------------------------------------------------
@@ -127,7 +127,7 @@ ggplot(cohort %>% filter(!is.na(race)), aes(x = race, fill = race)) +
 
     Your plot should look like the following: 
   <p align="center">
-  <img src="images/NHANES_race.JPG" alt="race barplot" width="500">
+  <img src="images/NHANES_race.jpg" alt="race barplot" width="500">
 </p>
  
 
